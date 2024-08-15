@@ -6,7 +6,7 @@ zero = 0
 while zero < len(my_list):
     if my_list[zero] < 0:
         break
-    if my_list[zero] >= 0:
+    if my_list[zero] > 0:
         print(my_list[zero])
     zero += 1
 
@@ -16,6 +16,6 @@ zero = 0
 while zero < len(my_list):
     if my_list[zero] < 0 and my_list[zero] == 0:
         break
-    if my_list[zero] >= 0:
+    if my_list[zero] > 0:
         print(my_list[zero])
     zero += 1
